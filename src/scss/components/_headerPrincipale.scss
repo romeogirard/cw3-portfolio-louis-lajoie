@@ -1,0 +1,12 @@
+.headerPrincipal{
+  margin: var(--margin-large);
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 17%;
+      margin-right: var(--margin-large);
+    }
+  }
+}
