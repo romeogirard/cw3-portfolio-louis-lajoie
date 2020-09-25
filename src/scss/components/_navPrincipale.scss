@@ -10,3 +10,10 @@
     padding: 0;
   }
 }
+@media screen and (min-width: $vw-medium){
+  .navPrincipale{
+    li{
+      margin-left: var(--margin-large);
+    }
+  }
+}

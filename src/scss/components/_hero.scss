@@ -9,15 +9,15 @@
     align-items: center;
     text-align: center;
   }
-  .bouton{
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--color-white);
-    background: var(--color-gradient);
-    padding: var(--padding-thin) var(--padding-large);
-  }
   img{
     width: 65%;
     margin-top: var(--margin-large);
+  }
+}
+
+@media screen and (min-width: $vw-medium){
+  .hero .wrapper{
+    display: flex;
+    flex-direction: row;
   }
 }

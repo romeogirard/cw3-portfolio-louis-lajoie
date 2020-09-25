@@ -6,11 +6,36 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: var(--padding-thin);
   }
   article{
     padding: var(--padding-large);
   }
   img{
     width: 15%;
+  }
+}
+
+@media screen and (min-width: $vw-small){
+  .creations{
+    .wrapper{
+      flex-direction: row;
+      flex-wrap: wrap;
+      article{
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $vw-medium){
+  .creations{
+    .wrapper{
+      flex-direction: row;
+      flex-wrap: wrap;
+      article{
+        width: 33%;
+      }
+    }
   }
 }
